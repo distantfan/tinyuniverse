@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://raw.githubusercontent.com/julianshapiro/velocity/master/velocity.min.js">
+
+  </script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="portfolio.css" >
+
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <header>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark indigo">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <!--/.Navbar-->
+
+  </header>
+
+  <main>
+    <!--Main layout-->
+    <div class="container-fluid" id="topPart">
+      <div class="jumbotron" id="topjumbo">
+        <div class="row" id="toprow">
+          <div class="col-md-4 col-sm-6" id="name">
+
+            <h1 id="tiny">Tiny Universe</h1>
+
+            <p id="development">
+              Development
+            </p>
+
+            <p id="desc">
+              Full stack development utializing a myriad of languages, libraries, and frameworks.
+            </p>
+
+            <p id="desc">
+              Graphic Design including branding, logo design, custom vector images.
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-0" id="middle">
+
+          </div>
+
+          <div class="col-md-4 col-sm-6" id="rightside">
+            <h4>Get a Quote</h4>
+            <button class="btn btn-lg btn-primary-outline " id="contactbutton">Contact Me <i class="fa fa-envelope" aria-hidden="true"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact form light box -->
+    <div id="contact-form-container">
+
+      <h2 class="white-center">Contact Me<i class="fa fa-times" aria-hidden="true"></i></h2>
+      <div class="jumbotron" id="contactjum">
+
+
+        <form class="contact-form" action="index.html" method="post" name="contactform">
+          <div class="md-form">
+
+            <input class="form-control" type="text" name="firstname" id="firstname" value="">
+              <label for="firstname">First Name</label>
+          </div>
+
+          <div class="md-form">
+
+          <input class="form-control" type="text" name="lastname" value="">
+          <label for="lastname">Last name</label>
+
+          </div>
+
+          <div class="md-form">
+
+          <input class="form-control" type="email" name="email" value="">
+          <label for="email">Email Address:</label><br><br>
+
+          </div>
+          <label for="reason-for-contact">Reason For Contact:</label>
+          <select class="form-control" name="reason-for-contact">
+          <option value="Quote">Quote</option>
+          <option value="Question">Question</option>
+          <option value="Question">Feedback</option>
+        </select>
+          <input type="checkbox" name="is-client" value=""><label for="is-client"><p>
+            Are You A Client ?
+          </p></label><br><br>
+
+          <div class="md-form">
+          <textarea class="md-textarea" id="message" name="message" placeholder="" rows="1000" cols="10"></textarea>
+          <label for="message">Enter Your Message</label>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">Submit</button>
+
+        </form>
+      </div>
+    </div>
+    <!-- end contact form -->
+
+    <!-- social light box slide down -->
+    <div id="social-slidedown">
+      <h2><i class="fa fa-facebook-square" aria-hidden="true"></i>
+          <i class="fa fa-twitter-square" aria-hidden="true"></i>
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          <i class="fa fa-github-square" aria-hidden="true"></i>
+       </h2>
+
+    </div>
+
+    <!-- Portfolio Section
+         First row -->
+    <div class="container-fluid">
+
+      <div class="jumbotron" id="portfoliojum">
+        <center>
+          <img src="https://vidassets.000webhostapp.com/portfolio.png" width="500" height="200" />
+        </center>
+
+        <!--Second row-->
+        <div class="row pt-4">
+          <!--First columnn-->
+          <div class="col-lg-4">
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view overlay hm-white-slight">
+                <img src="https://vidassets.000webhostapp.com/weatherapp.PNG" class="img-fluid" alt="">
+                <a href="https://codepen.io/tinyuniverseman/pen/GvxYjB">
+                  <div class="mask"></div>
+                </a>
+              </div>
+
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">Weather App</h4>
+                <!--Text-->
+                <p class="card-text">Weather App built on jquery with a weather API and Google locations</p>
+                <a href="https://codepen.io/tinyuniverseman/pen/GvxYjB" class="btn btn-primary">Visit</a>
+              </div>
+
+            </div>
+          </div>
+          <!--/.Card-->
+
+          <!--First columnn-->
+
+
+
+          <!--Second columnn-->
+          <div class="col-lg-4">
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view overlay hm-white-slight">
+                <img src="https://vidassets.000webhostapp.com/randomquote.PNG" class="img-fluid" alt="">
+                <a href="#">
+                  <div class="mask"></div>
+                </a>
+              </div>
+
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">Random Quote Generator</h4>
+                <!--Text-->
+                <p class="card-text">API driven random qoute generator</p>
+                <a href="https://s.codepen.io/tinyuniverseman/debug/WEMNYz/PNkvYLjYbpbA" class="btn btn-secondary">View</a>
+              </div>
+
+            </div>
+            <!--/.Card-->
+          </div>
+          <!--Second columnn-->
+
+          <!--Third columnn-->
+          <div class="col-lg-4">
+            <!--Card-->
+            <div class="card">
+
+              <!--Card image-->
+              <div class="view overlay hm-white-slight">
+                <img src="https://vidassets.000webhostapp.com/oldportfolio.PNG" class="img-fluid" alt="">
+                <a href="#">
+                  <div class="mask"></div>
+                </a>
+              </div>
+
+              <!--Card content-->
+              <div class="card-body">
+                <!--Title-->
+                <h4 class="card-title">Old Portfolio Page</h4>
+                <!--Text-->
+                <p class="card-text">Basic Bootstrap portfolio</p>
+                <a href="https://s.codepen.io/tinyuniverseman/debug/WEOMXK/yPMJjGvjxaBM" class="btn btn-warning">View</a>
+              </div>
+
+            </div>
+            <!--/.Card-->
+          </div>
+          <!--Third columnn-->
+        </div>
+        <!--/.Second row-->
+      </div>
+      <!--/.Main layout-->
+    </div>
+
+  </main>
+
+  <!--Footer-->
+  <footer class="page-footer center-on-small-only">
+
+    <!--Footer links-->
+    <div class="container-fluid">
+      <div class="row">
+        <!--First column-->
+        <div class="col-lg-3 col-md-6 ml-auto">
+          <h5 class="title mb-3"><strong>Tiny Universe Development</strong></h5>
+
+        </div>
+        <!--/.First column-->
+        <hr class="w-100 clearfix d-sm-none">
+        <!--Second column-->
+        <div class="col-lg-2 col-md-6 ml-auto">
+          <h5 class="title mb-3"><strong>First column</strong></h5>
+          <ul>
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+
+          </ul>
+        </div>
+        <!--/.Second column-->
+        <hr class="w-100 clearfix d-sm-none">
+        <!--Third column-->
+        <div class="col-lg-2 col-md-6 ml-auto">
+          <h5 class="title mb-3"><strong>Second column</strong></h5>
+          <ul>
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+
+          </ul>
+        </div>
+        <!--/.Third column-->
+        <hr class="w-100 clearfix d-sm-none">
+        <!--Fourth column-->
+        <div class="col-lg-2 col-md-6 ml-auto">
+          <h5 class="title mb-3"><strong>Third column</strong></h5>
+          <ul>
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+
+          </ul>
+        </div>
+        <!--/.Fourth column-->
+      </div>
+    </div>
+    <!--/.Footer links-->
+
+    <hr>
+
+    <!--Call to action-->
+
+    <!--/.Call to action-->
+
+    <!--Copyright-->
+    <div class="footer-copyright">
+      <div class="container-fluid">
+        © 2015 Copyright: <a href="https://www.tinyuniverse.io"> Tiny Universe Development</a>
+
+      </div>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/js/mdb.min.js"></script>
+  <script src="portfolio.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js">
+
+  </script>
+</body>
+
+</html>
